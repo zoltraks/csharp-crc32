@@ -1,0 +1,6 @@
+/bin
+/obj
+/Properties/launchSettings.json
+/Properties/PublishProfiles
+/*.csproj.user
+/.vs
