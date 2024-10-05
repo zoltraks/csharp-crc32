@@ -46,7 +46,7 @@ namespace Crc32
             for (int i = start; i < length; i++)
             {
                 byte next = buffer[i];
-                byte index = (byte)((checksum & 0xff) ^ next);
+                byte index = (byte)(checksum ^ next);
                 checksum = (checksum >> 8) ^ table[index];
             }
         }
